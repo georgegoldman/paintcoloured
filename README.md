@@ -17,7 +17,15 @@ To use the X11 Color Paint App, follow these steps:
 3. Compile the source code: `gcc -o paint main.c -lX11`
 4. Run the executable: `./paint`
 
+If you're already in your project directory, you can simply use these commands:
+
+```bash
+cd ~/paintcoloured
+make
+./paint
+```
 ## Usage
+
 - Upon running the application, a window will open displaying a canvas.
 - Use the mouse or touchpad to draw on the canvas.
 - To select a color, use the color palette provided.
@@ -25,11 +33,13 @@ To use the X11 Color Paint App, follow these steps:
 - To clear the canvas, click on the "Clear" button.
 
 ## Dependencies
-This project requires the X11 library. Ensure that you have the X11 development libraries installed on your system before compiling the source code.
-Additionally, the project utilizes [SDL (Simple DirectMedia Layer)](https://www.libsdl.org/) and [SDL_ttf](https://www.libsdl.org/projects/SDL_ttf/) for enhanced graphics and text rendering capabilities.
+
+This project requires the X11 library. Ensure that you have the X11 development libraries installed on your system before compiling the source code. Additionally, the project utilizes [SDL (Simple DirectMedia Layer)](https://www.libsdl.org/) and [SDL_ttf](https://www.libsdl.org/projects/SDL_ttf/) for enhanced graphics and text rendering capabilities.
 
 ## Contributing
+
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
 1. Fork the repository on GitHub.
 2. Create a new branch with your feature or bug fix: `git checkout -b feature-or-fix`.
 3. Commit your changes: `git commit -am 'Add new feature'`.
@@ -37,6 +47,7 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 5. Submit a pull request on GitHub.
 
 ## License
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Author
